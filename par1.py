@@ -254,7 +254,7 @@ def main():
 
 def	viewshed(vp,data,startx,endx,starty,endy):
 	#print("-------------------------------")
-
+	start_time = time.time()
 
 	if rank!=0 or size==1:
 
@@ -283,7 +283,7 @@ def	viewshed(vp,data,startx,endx,starty,endy):
 
 
 	
-		start_time = time.time()
+
 		#vp[2] is the height at the pixel of the observer
 		#vp[1] is the y coordinate for the pixel of the observer
 		#vp[0] is the x coordinate for the pixel of the observer
